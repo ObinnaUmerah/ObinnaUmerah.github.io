@@ -1,135 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Full-Stack Engineer & ML Developer</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Nombre | Homepage</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Obinna Umerah</h1>
-            <p class="tagline">Full-Stack Engineer & Machine Learning Developer</p>
-            <p>Based in Texas | Building AI-powered applications</p>
-            <div class="links">
-                <a href="umerahtech@gmail.com">Email</a>
-                <a href="https://github.com/ObinnaUmerah" target="_blank">GitHub</a>
-                <a href="https://kaggle.com/ObinnaUmerah" target="_blank">Kaggle</a>
-            </div>
-        </header>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Your Name</h1>
+    <p>A short description: e.g. Deep Learning student · AI researcher · Python & fast.ai enthusiast</p>
+  </header>
 
-        <section class="about">
-            <h2>About Me</h2>
-            <p>I'm a full-stack engineer with growing expertise in machine learning and AI. </p>
-            
-            <p>Currently, I'm advancing my deep learning skills through building projects in computer vision, NLP, and generative AI. </p>
-            
-            <div class="highlight">
-                <strong>Current Focus:</strong> Exploring AI applications in governance and urban systems, with interest in charter cities and using technology for transparent systems and innovative education models.
-            </div>
-        </section>
+  <main>
+    <section id="about">
+      <h2>About me</h2>
+      <p>Here you describe yourself: background, interests, what you study/work on...</p>
+    </section>
 
-        <section>
-            <h2>Projects</h2>
-            
+    <section id="projects">
+      <h2>Projects</h2>
+      <article class="project">
+        <h3>Project 1 — Title</h3>
+        <p>Short description of the project, maybe a link or technologies used.</p>
+      </article>
+      <article class="project">
+        <h3>Project 2 — Title</h3>
+        <p>Short description...</p>
+      </article>
+      <!-- más proyectos -->
+    </section>
 
-            <div class="project">
-                <h3>Masked Man - Image Classifier</h3>
-                <p>Computer vision model for image classification using convolutional neural networks. Built with PyTorch and the fast.ai framework, demonstrating practical application of transfer learning and fine-tuning techniques.</p>
-                <p class="tech">Tech: PyTorch, fast.ai, Python, CNNs, Transfer Learning</p>
-                <a href="https://www.kaggle.com/code/obinnaumerah/masked-men" target="_blank">View on Kaggle →</a>
-            </div>
-            
-            <div class="project">
-                <h3>Books API - Backend System<span class="status complete">Complete</span></h3>
-                <p>Full-stack backend API enabling book collection management with RESTful architecture. Implemented complete CRUD functionality, database integration with ORM, and comprehensive endpoint testing. Follows MVC design patterns and industry-standard API conventions.</p>
-                <p class="tech">Tech: Java, Spring Boot, JPA/Hibernate, PostgreSQL, RESTful APIs, Postman, Maven</p>
-                <a href="https://github.com/ObinnaUmerah/booksapi" target="_blank">View on GitHub →</a>
-</div>
-        </section>
+    <section id="blog">
+      <h2>Blog / Posts</h2>
+      <article class="post">
+        <h3><a href="#post-link">Post Title</a></h3>
+        <time datetime="2025-11-29">29 Nov 2025</time>
+        <p>Short summary or excerpt of the post...</p>
+      </article>
+      <!-- más posts -->
+    </section>
 
-        <section>
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="skill-category">
-                    <h3>Machine Learning</h3>
-                    <ul>
-                        <li>PyTorch</li>
-                        <li>fast.ai</li>
-                        <li>Computer Vision</li>
-                        <li>NLP & Transformers</li>
-                        <li>Transfer Learning</li>
-                        <li>Model Training & Fine-tuning</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>SQL</li>
-                        <li>HTML/CSS</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>React</li>
-                        <li>Responsive Design</li>
-                        <li>Modern CSS</li>
-                        <li>UI/UX Principles</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Backend & Databases</h3>
-                    <ul>
-                        <li>Node.js / Express</li>
-                        <li>RESTful APIs</li>
-                        <li>SQL Databases</li>
-                        <li>Data Analysis</li>
-                    </ul>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Jupyter Notebooks</li>
-                        <li>Command Line</li>
-                        <li>Kaggle</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:tu@correo.com">tu@correo.com</a></p>
+      <!-- puedes incluir redes sociales o link a CV -->
+    </section>
+  </main>
 
-        <section>
-            <h2>Education & Recognition</h2>
-            
-            <div class="project">
-                <h3>General Assembly - Software Engineering Immersive</h3>
-                <p><strong>Recipient of the $20,000 Interapt Skills for Hire Competitive Scholarship</strong></p>
-                <p>Completed intensive 12-week, 400+ hour immersive program covering full-stack web development, databases, algorithms, and modern deployment practices. Advanced to final interview rounds for software engineering positions post-graduation.</p>
-                <p class="tech">Covered: JavaScript, React, Node.js, SQL, RESTful APIs, Git, Agile methodologies</p>
-            </div>
-            
-            
-            <div class="project">
-                <h3>Tarrant County College - Associate's Degree</h3>
-                <p>Expected Graduation: May 2026</p>
-                <p>Currently enrolled while building practical experience through projects and continued learning.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Contact</h2>
-            <p>I'm currently seeking part-time opportunities in machine learning, full-stack development, or data engineering while completing my degree.</p>
-            <p>Particularly interested in roles involving AI applications, governance technology, or social impact projects.</p>
-            <p style="margin-top: 20px;"><strong>Email:</strong> <a href="umerahtech@gmail.com">your.email@example.com</a></p>
-        </section>
-    </div>
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
 </body>
 </html>
