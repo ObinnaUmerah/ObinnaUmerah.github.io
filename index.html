@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tu Nombre | Homepage</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Obinna Umerah</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Your Name</h1>
-    <p>A short description: e.g. Deep Learning student · AI researcher · Python & fast.ai enthusiast</p>
-  </header>
+    <div class="container">
+        <header>
+            <div class="site-title">
+                <h1><a href="/">Obinna Umerah</a></h1>
+            </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About</a>
+                <a href="https://github.com/yourusername">GitHub</a>
+            </nav>
+        </header>
 
-  <main>
-    <section id="about">
-      <h2>About me</h2>
-      <p>Here you describe yourself: background, interests, what you study/work on...</p>
-    </section>
+        <section class="page-title">
+            <h1>Projects</h1>
+            <p>Things I've built while learning.</p>
+        </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <article class="project">
-        <h3>Project 1 — Title</h3>
-        <p>Short description of the project, maybe a link or technologies used.</p>
-      </article>
-      <article class="project">
-        <h3>Project 2 — Title</h3>
-        <p>Short description...</p>
-      </article>
-      <!-- más proyectos -->
-    </section>
+        <section class="projects-list">
+            <article class="project">
+                <h2>Masked Man - Face Mask Detection</h2>
+                <p>Binary image classifier for detecting face mask usage using transfer learning and CNNs. Trained on real-world images with data augmentation.</p>
+                <p class="tech">PyTorch, fast.ai, Computer Vision, Transfer Learning</p>
+                <div class="links">
+                    <a href="https://kaggle.com/yourusername/masked-men">Kaggle</a>
+                    <a href="https://github.com/yourusername/masked-man">GitHub</a>
+                </div>
+            </article>
 
-    <section id="blog">
-      <h2>Blog / Posts</h2>
-      <article class="post">
-        <h3><a href="#post-link">Post Title</a></h3>
-        <time datetime="2025-11-29">29 Nov 2025</time>
-        <p>Short summary or excerpt of the post...</p>
-      </article>
-      <!-- más posts -->
-    </section>
+            <article class="project">
+                <h2>Books API</h2>
+                <p>RESTful API for managing book collections. Full CRUD operations with database persistence using Spring Boot and JPA.</p>
+                <p class="tech">Java, Spring Boot, JPA/Hibernate, PostgreSQL, REST</p>
+                <div class="links">
+                    <a href="https://github.com/ObinnaUmerah/booksapi">GitHub</a>
+                </div>
+            </article>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:tu@correo.com">tu@correo.com</a></p>
-      <!-- puedes incluir redes sociales o link a CV -->
-    </section>
-  </main>
+            <article class="project">
+                <h2>Neural Network From Scratch</h2>
+                <p>Custom neural network implementation for digit recognition (0-9) without high-level frameworks. Built to understand backpropagation fundamentals.</p>
+                <p class="tech">Python, NumPy, Neural Networks</p>
+                <div class="links">
+                    <a href="https://github.com/yourusername/nn-scratch">GitHub</a>
+                </div>
+            </article>
+        </section>
 
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
+        <footer>
+            <p>© 2025 Obinna Umerah</p>
+        </footer>
+    </div>
 </body>
 </html>
