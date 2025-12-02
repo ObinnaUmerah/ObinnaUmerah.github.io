@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Obinna Umerah</title>
+    <title>Obinna Umerah</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦅</text></svg>">>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="site-title">
-                <h1><a href="/">Obinna Umerah</a></h1>
-            </div>
+            <h1 class="site-title"><a href="/">Obinna Umerah</a></h1>
             <nav>
-                <a href="/">Home</a>
                 <a href="/projects">Projects</a>
+                <a href="/writing">Writing</a>
                 <a href="/about">About</a>
                 <a href="https://github.com/yourusername">GitHub</a>
             </nav>
         </header>
 
-        <section class="page-title">
-            <h1>Projects</h1>
-            <p>Things I've built while learning.</p>
+        <section class="intro">
+            <p>I build things with code and write about what I learn. Currently working with machine learning, and computer vision.</p>
         </section>
 
-        <section class="projects-list">
-            <article class="project">
-                <h2>Masked Man - Face Mask Detection</h2>
-                <p>Binary image classifier for detecting face mask usage using transfer learning and CNNs. Trained on real-world images with data augmentation.</p>
-                <p class="tech">PyTorch, fast.ai, Computer Vision, Transfer Learning</p>
-                <div class="links">
-                    <a href="https://kaggle.com/yourusername/masked-men">Kaggle</a>
-                    <a href="https://github.com/yourusername/masked-man">GitHub</a>
-                </div>
+        <!-- FEATURED PROJECTS (Lead with this since you have them) -->
+        <section class="featured">
+            <h2>Recent Work</h2>
+            
+            <article class="featured-project">
+                <h3><a href="https://kaggle.com/obinnaumerah/masked-men">Masked Man - Face Mask Detection</a></h3>
+                <p>Binary image classifier using transfer learning and CNNs. Trained on real-world images with data augmentation to detect face mask usage.</p>
+                <p class="meta">PyTorch, fast.ai, Computer Vision</p>
             </article>
 
+          
+
+            <p class="more-link"><a href="/projects">View all projects →</a></p>
+        </section>
+
+        <!-- WRITING (Empty for now, but structured) -->
+        <section class="writing">
+            <h2>Writing</h2>
+            <p class="coming-soon">Coming soon. Currently focused on building and learning.</p>
             
-            <article class="project">
-                <h2>Neural Network From Scratch</h2>
-                <p>Custom neural network implementation for digit recognition (0-9) without high-level frameworks. Built to understand backpropagation fundamentals.</p>
-                <p class="tech">Python, NumPy, Neural Networks</p>
-                <div class="links">
-                    <a href="https://github.com/yourusername/nn-scratch">GitHub</a>
-                </div>
+            <!-- Once you have posts, replace above with: -->
+            <!--
+            <article class="post">
+                <h3><a href="/blog/post-title.html">Your Post Title</a></h3>
+                <time datetime="2025-11-30">November 30, 2025</time>
+                <p>Post summary here...</p>
             </article>
+            -->
         </section>
 
         <footer>
