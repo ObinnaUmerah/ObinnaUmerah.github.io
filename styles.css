@@ -1,53 +1,40 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  color: #222;
-  background-color: #fff;
-}
-
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 header {
-  text-align: center;
-  padding: 4rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 0 20px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.navbar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-flex;
-  gap: 1rem;
-}
-.navbar a {
-  font-weight: bold;
+.site-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+.site-title a {
+    color: #111;
+    text-decoration: none;
 }
 
-section + section {
-  margin-top: 3rem;
+.site-title a:hover {
+    color: #0066cc;
 }
 
-.project, .post {
-  margin-bottom: 2rem;
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  font-size: 0.9rem;
-  color: #666;
+nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #111;
 }
